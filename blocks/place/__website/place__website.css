@@ -1,0 +1,6 @@
+.place__website{
+  grid-area: "link";
+  justify-self: start;
+  margin: 0;
+  padding: 0;
+}

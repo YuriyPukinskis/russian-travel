@@ -2,7 +2,7 @@
   display:grid;
   gap:48px;
   padding-bottom: 80px;
-  grid-template-columns: repeat(2, 460px);
+  grid-template-columns: repeat(2, minmax(min-content, max-content));
   grid-template-rows: repeat(2, auto);
   grid-template-areas: 
   "header link"

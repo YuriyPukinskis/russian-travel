@@ -1,6 +1,16 @@
 .place__image{
-  max-width: 100%;
+  max-width: 460px;
   max-height: 460px;
   grid-area: "art";
 }
 
+@media screen and (max-width: 320px) {
+  .place__image {
+    object-fit: fill;
+    width: 320px;
+    height: 320px;
+    padding:0;
+    margin:0;
+    
+  }
+}

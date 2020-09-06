@@ -1,7 +1,7 @@
 .place__paragraph{
   grid-area: "text";
   
-  max-width: 484px;
+  max-width: 480px;
   margin:0;
   padding:0;
   padding-bottom:24px;
@@ -9,6 +9,18 @@
   font-family: Inter;
   font-style: normal;
   font-weight: normal;
-  font-size: 18px;
+  font-size: 100%;
   line-height: 163%;
+}
+
+@media screen and (max-width: 768px) {
+  .place__paragraph {
+      font-size: 30%;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .place__paragraph {
+    max-width:100vw;  
+  }
 }

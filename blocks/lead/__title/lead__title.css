@@ -1,16 +1,15 @@
 .lead__title{
   max-width: 710px;
-  
-  font-family: Inter;
   font-style: normal;
   font-weight: 900;
-  font-size: 6em;
+  font-size: 96px;
   line-height: 100px;
   text-align: center;
   padding: 0;
   margin: 0;
   align-self: center;
   margin-bottom: 32px;
+
 }
 
 /* @media screen and (max-width: 1024px) {
@@ -23,13 +22,17 @@
 
 @media screen and (max-width: 768px) {
   .lead__title{
-    font-size: 2.5em;
+    /* font-size: 96px;при разрешении экрана мене 710px при шрифте в 96px запись не поместится */
+    font-size: 13vw;
+    max-width:100%;
+    
   }
 }
 
 @media screen and (max-width: 320px) {
   .lead__title{
     font-size: 40px;
+    line-height: 44px;
     margin-bottom: 16px;
   }
 } 

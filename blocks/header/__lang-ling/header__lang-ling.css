@@ -1,9 +1,24 @@
 .header__lang-ling{
-    font-family: Inter;
-    
+  /* font-family: Inter; */
+  transition: 3s;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+  padding-left: 18px;
+  color: white;
+  text-decoration: none;
+  
 }
 
-.header__lang-ling:first-child{
-    padding-right: 18px;
-    text-decoration: underline;
+@media screen and (max-width: 320px) {
+  .header__lang-ling {
+    font-size: 18px;
+    line-height: 20px;
+  }
+}
+
+.header__lang-ling:hover{
+  opacity: 0.8;
+  
 }

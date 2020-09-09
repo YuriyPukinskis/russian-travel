@@ -1,0 +1,11 @@
+.footer__elem{
+    display: inline;
+    margin: 0;
+    padding: 0;
+}
+
+@media screen and (max-width: 320px) {
+    .footer__elem{
+      display: block;
+    }
+  }

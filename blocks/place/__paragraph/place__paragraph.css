@@ -5,11 +5,10 @@
   align-self: start;
   font-style: normal;
   font-weight: normal;
-  width: 100%;
-  max-width: 484px;
   font-size: 18px;
   line-height: 163%;
-  
+  width: 100%; 
+  max-width: 484px;
 }
 
 @media screen and (max-width: 1024px) {
@@ -27,10 +26,14 @@
   }
 }  
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 720px) {
   .place__paragraph {
-    
+    width:100%;
     max-width: 288px;
+    
   }
 } 
 
+.place__paragraph:last-child{
+  padding-bottom: 0;
+}

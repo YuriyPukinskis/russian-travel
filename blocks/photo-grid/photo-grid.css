@@ -7,17 +7,24 @@
   padding: 0;
   margin: 92px auto;
   grid-auto-flow: row;
-  border: 3px solid green;
+}
+
+@media screen and (max-width: 1024px) {
+  .photo-grid {
+    max-width: 928px;
+  }
 }
 
 @media screen and (max-width: 768px) {
   .photo-grid {
     margin:88px auto;
+    max-width: 720px;
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 720px) {
   .photo-grid {
     margin:64px auto;
+    max-width: 288px;
   }
 }

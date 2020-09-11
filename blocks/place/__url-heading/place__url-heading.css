@@ -28,7 +28,7 @@
   }
 }  
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 720px) {
   .place__link {
     max-width:100vw;  
     

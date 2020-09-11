@@ -1,11 +1,16 @@
 .footer__elem{
-    display: inline;
+    /* display: inline; */
     margin: 0;
     padding: 0;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 720px) {
     .footer__elem{
-      display: block;
+      padding-bottom: 32px;
+      
     }
+  }
+
+  .footer__elem:last-child{
+    padding-bottom:0;
   }

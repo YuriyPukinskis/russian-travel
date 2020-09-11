@@ -3,7 +3,7 @@
   grid-area: art;
 }
 
- @media screen and (max-width: 320px) {
+ @media screen and (max-width: 720px) {
   .place__image {
     object-fit: fill;
     width: 320px;

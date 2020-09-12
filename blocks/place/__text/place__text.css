@@ -2,6 +2,7 @@
   width: 100%; 
   max-width: 484px;;
   grid-area: text; 
+  
 }
 
 @media screen and (max-width: 720px) {
